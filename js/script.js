@@ -468,7 +468,9 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         body: JSON.stringify({
           message: trimmedMessage,
-          history: conversationHistory.slice(-6)
+          // Le message courant est transmis séparément dans `message`.
+          // N'envoyer que les tours précédents pour éviter de le dupliquer.
+          history: conversationHistory.slice(0, -1).slice(-6)
         })
       });
 

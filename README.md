@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ÉMILE RUSSEL PHOTOGRAPHY — Atelier Photographique d'Art & Haute Couture
 
 > **Projet Hackathon Académique :** « Création d'un site web d'entreprise d'exception »  
@@ -188,3 +189,7 @@ Le projet est configuré nativement pour la plateforme **Vercel** grâce à `ver
 
 ---
 *Réalisé avec passion pour le Hackathon Académique — Émile Russel Photography.*
+=======
+# Vitrine-du-photographe-Emile-Russel
+site web Html css et javascript
+>>>>>>> 4f291178a96b27d0da9e509a01df6bae1341b7ac

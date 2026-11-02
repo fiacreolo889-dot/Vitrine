@@ -5,7 +5,6 @@
 
 export default async function handler(req, res) {
   // En-têtes CORS
-  res.setHeader('Access-Control-Allow-Credentials', true);
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
   res.setHeader(
@@ -68,8 +67,7 @@ RÈGLES DE RÉPONSE :
 - Ne jamais inventer de fausses adresses ou d'autres coordonnées que celles de Pigier / Émile Russel.`;
 
   try {
-    const geminiEndpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
-
+    const geminiEndpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`;
     // Construction du format de requêtes pour l'API Gemini
     const contents = [];
 
